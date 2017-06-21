@@ -12,6 +12,7 @@
 		4C3D76D11EF4F88F00035766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D76CF1EF4F88F00035766 /* Main.storyboard */; };
 		4C3D76D31EF4F88F00035766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D76D21EF4F88F00035766 /* Assets.xcassets */; };
 		4C3D76D61EF4F88F00035766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D76D41EF4F88F00035766 /* LaunchScreen.storyboard */; };
+		4C3D76DE1EF502E900035766 /* ModelClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D76DD1EF502E900035766 /* ModelClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4C3D76D21EF4F88F00035766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C3D76D51EF4F88F00035766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C3D76D71EF4F88F00035766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3D76DD1EF502E900035766 /* ModelClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4C3D76CB1EF4F88F00035766 /* AppDelegate.swift */,
 				4C3D76CD1EF4F88F00035766 /* ViewController.swift */,
+				4C3D76DD1EF502E900035766 /* ModelClasses.swift */,
 				4C3D76CF1EF4F88F00035766 /* Main.storyboard */,
 				4C3D76D21EF4F88F00035766 /* Assets.xcassets */,
 				4C3D76D41EF4F88F00035766 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C3D76CE1EF4F88F00035766 /* ViewController.swift in Sources */,
+				4C3D76DE1EF502E900035766 /* ModelClasses.swift in Sources */,
 				4C3D76CC1EF4F88F00035766 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PostManDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Organization.PostManDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PostManDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Organization.PostManDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
